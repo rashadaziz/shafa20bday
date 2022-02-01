@@ -2,10 +2,10 @@
 let loadingAssets = true;
 let assets = [];
 let videoWishes = [];
-let whistle = new Audio("./assets/audio/firework_whistle.mp3");
-let kaboom = new Audio("./assets/audio/firework_explode.mp3");
-let fire = new Audio("./assets/audio/firework_launch.mp3");
-let hbd = new Audio("./assets/audio/Opening.mp3");
+let whistle = new Audio("https://rashadaziz.github.io/shafa20bday/assets/audio/firework_whistle.mp3");
+let kaboom = new Audio("https://rashadaziz.github.io/shafa20bday/assets/audio/firework_explode.mp3");
+let fire = new Audio("https://rashadaziz.github.io/shafa20bday/assets/audio/firework_launch.mp3");
+let hbd = new Audio("https://rashadaziz.github.io/shafa20bday/assets/audio/Opening.mp3");
 // DUMMY TROLL PAGE
 let trollButton = document.querySelector(".troll-button");
 
@@ -586,12 +586,12 @@ function transitionToCarPage() {
 // CAR DRIVING BIRTHDAY WISHES
 
 const carBody = new Image()
-carBody.src = "./assets/images/Body.png"
+carBody.src = "https://rashadaziz.github.io/shafa20bday/assets/images/Body.png"
 const carWheel = new Image()
-carWheel.src = "./assets/images/Wheel.png"
+carWheel.src = "https://rashadaziz.github.io/shafa20bday/assets/images/Wheel.png"
 
 const background = new Image();
-background.src = "./assets/images/birthday.png";
+background.src = "https://rashadaziz.github.io/shafa20bday/assets/images/birthday.png";
 const BG = {
   x1: 0 ,
   x2: innerWidth,
