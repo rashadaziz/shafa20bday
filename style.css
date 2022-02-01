@@ -1,0 +1,99 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gooinize {
+    filter: url('#goo')
+}
+
+svg {
+    display: none;
+}
+
+.just-kidding {
+    font-size: 7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes svg-animation {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+@keyframes fade-out{
+    to {
+        opacity: 0;
+    }
+}
+
+
+.prompt-message {
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.prompt-message span {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    display: block;
+    height: 100%;
+    animation: spin-words 6s infinite;
+}
+
+@keyframes spin-words {
+    16.67% {
+        transform: translateY(-112%);
+    }
+    33.34% {
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(-212%);
+    }
+    66.68%{
+        transform: translateY(-200%);
+    }
+    83.35%{
+        transform: translateY(-312%);
+    }
+    100%{
+        transform: translateY(-300%);
+    }
+
+}
+.controls {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+iframe {
+    display: none;
+}
